@@ -21,9 +21,9 @@ class Main():
         return _image
 
     def load_datas(self):
-        self.G_image = self.open_image("datas/hinana.png") 
-        self.T_image = self.open_image("datas/madoka.png") 
-        self.P_image = self.open_image("datas/toru.png") 
+        self.G_image = self.open_image("datas/G.png") 
+        self.T_image = self.open_image("datas/T.png") 
+        self.P_image = self.open_image("datas/P.png") 
         self.images = {"グー":self.G_image,"チョキ":self.T_image,"パー":self.P_image}
 
     def make_frames(self):
